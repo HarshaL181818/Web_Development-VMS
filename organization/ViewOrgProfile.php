@@ -2,14 +2,14 @@
 <?php
   session_start();
 ?>
-<link rel="stylesheet" href="OrganizationSignup.css">
+<link rel="stylesheet" href="../assets/css/OrganizationSignup.css">
 
 <body>
     <header>
       <nav>
-        <a href="home.html">Home</a>
-        <a href="login.html">Login</a>
-        <a href="signup.html">Signup</a>
+      <a href="../home.html">Home</a>
+        <a href="../auth/login.html">Login</a>
+        <a href="../auth/signup.html">Signup</a>
       </nav>
         <div>
             <label for="email">.  Email:</label>

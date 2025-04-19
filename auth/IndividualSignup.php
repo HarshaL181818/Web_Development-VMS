@@ -44,7 +44,7 @@ try {
 }
 $conn->close();
 ?>
-<link rel="stylesheet" type="text/css" href="IndividualSignup.css" >
+<link rel="stylesheet" type="text/css" href="../assets/css/IndividualSignup.css" >
 <body>
     <header>
       <nav>

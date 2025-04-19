@@ -38,7 +38,7 @@ try {
 
 $conn->close();
 ?>
-<link rel="stylesheet" href="OrganizationSignup.css">
+<link rel="stylesheet" href="../assets/css/OrganizationSignup.css">
 
 <!DOCTYPE html>
 <html lang="en">
@@ -50,7 +50,7 @@ $conn->close();
 <body>
   <header>
     <nav>
-      <a href="home.html">Home</a>
+      <a href="../home.html">Home</a>
       <a href="login.html">Login</a>
       <a href="signup.html">Signup</a>
     </nav>

@@ -57,15 +57,15 @@ $conn->close();
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="IndividualLogin.css" >
+<link rel="stylesheet" type="text/css" href="../assets/css/IndividualLogin.css" >
 </head>
 
 <body>
   <header>
     <nav>
-      <a href="home.html">Home</a>
-      <a href="login.html">Login</a>
-      <a href="signup.html">Signup</a>
+    <a href="../home.html">Home</a>
+        <a href="../auth/login.html">Login</a>
+        <a href="../auth/signup.html">Signup</a>
       <label for="email">.....Email:</label>
       <span id="emailDisplay"></span>
   </nav>

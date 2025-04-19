@@ -1,14 +1,14 @@
 <?php
   session_start();
 ?>
-<link rel="stylesheet" href="vdetails.css">
+<link rel="stylesheet" href="../assets/css/vdetails.css">
 
 <body>
     <header>
       <nav>
-        <a href="home.html">Home</a>
-        <a href="login.html">Login</a>
-        <a href="signup.html">Signup</a>
+      <a href="../home.html">Home</a>
+        <a href="../auth/login.html">Login</a>
+        <a href="../auth/signup.html">Signup</a>
       </nav>
         <div>
             <label for="email">.  Email:</label>
@@ -28,7 +28,7 @@
             $dbname = "orgvms";
 
             $conn = new mysqli($servername, $username, $password, $dbname);
-            $eventname = $_SESSION['eventname1'];
+            $eventname = $_SESSION['eventname3'];
             $email = $_SESSION['email'];
 
             if ($conn->connect_error) {
@@ -103,7 +103,7 @@ if (isset($_POST['logout'])) {
       <div class="container">
         <div class="login-form">
           <h2>Your Account details are</h2>
-          <form action="viewdetails1.php" method="post">
+          <form action="viewdetails3.php" method="post">
           
             <label for="eventname">Event Name: <span id="eventnameDisplay"></span></label>
             <label for="emailoforg">Email of organization: <span id="emailoforgDisplay"></span></label>
